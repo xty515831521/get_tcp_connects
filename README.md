@@ -1,2 +1,4 @@
 # get_tcp_connects
-获取tcp连接数以及每秒新增连接数并绘图
+获取tcp连接数以及每秒新增连接数并绘图（用于性能测试过程中对tcp连接数的研究）
+get_connects2.py 在mac或者linux下运行，生成两个根据时间命名的txt文档，分别为tcp连接数和平均连接数
+set_img.py 在mac下运行，根据txt文档绘图，保存两个图形，分别为tcp连接数图和每秒新增连接数图
